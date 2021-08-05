@@ -15,6 +15,4 @@ app.get("/", (req, res) => {
   res.render('index')
 } ) //app.get takes two parameters, first a url path and then a callback function which takes two parameters itself, which immediately renders an index view with the title "index"
 
-app.listen(port, () => {
-  console.log('PS Project Running on port ' + port)
-})
+app.listen(3000, () => {console.log('PS Project Running on port 3000!') })
